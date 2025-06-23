@@ -61,7 +61,7 @@ const UserList = () => {
     return (
         <div className="px-6 md:px-8 xl:px-12 mt-4">
             <div className="w-11/12 sm:w-2/3 xl:w-[35%] mx-auto mt-10">
-                <h1 className="text-lg md:text-4xl my-5 mb-8 text-center">
+                <h1 className="text-xl sm:text-2xl md:text-4xl my-5 mb-8 text-center">
                     EyeQlytics User Directory
                 </h1>
 
@@ -103,7 +103,7 @@ const UserList = () => {
 
             {filteredUsers.length === 0 && <Loader />}
             <div className="w-full mb-20">
-                <ul className=" mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-10 p-0 sm:p-2 justify-center w-fit mx-auto md:w-full xl:w-full sm:gap-x-6">
+                <ul className=" mt-14 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-y-10 p-0 sm:p-2 justify-center w-fit mx-auto md:w-full xl:w-full sm:gap-x-8">
                     {filteredUsers.map((user) => {
                         return (
                             <UserCards

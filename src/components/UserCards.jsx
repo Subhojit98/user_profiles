@@ -2,7 +2,7 @@ import formatDate from '../utils/dateFormater';
 
 const UserCards = ({ email, username, country, dob, avatar }) => {
     return (
-        <li className="max-w-sm h-[25rem] border-l border-t  border-gray-400 rounded-lg relative shadow-[7px_7px_2px_4px_rgba(144,224,239))] hover:-translate-y-2 duration-300 ease-out hover:scale-105">
+        <li className="max-w-md h-[25rem] border-l border-t  border-gray-400 rounded-lg relative shadow-[7px_7px_2px_4px_rgba(144,224,239))] hover:-translate-y-2 duration-300 ease-out hover:scale-105">
             <div className="w-[90%] h-20 bg-[#FFF287] mx-auto mt-7 rounded-xl"></div>
             <img
                 src={avatar || ''}
@@ -89,6 +89,3 @@ const UserCards = ({ email, username, country, dob, avatar }) => {
 };
 
 export default UserCards;
-
-// default
-// shadow-[0px_2px_3px_-1px_rgba(0,0,0,0.1),0px_1px_0px_0px_rgba(25,28,33,0.02),0px_0px_0px_1px_rgba(25,28,33,0.08)]

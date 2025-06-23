@@ -48,6 +48,10 @@ Make sure you have the following installed on your system:
 
 1. **Clone the Repository**:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/Subhojit98/user_profiles.git
     cd user_profiles
     ```
+
+### Hosted vercel Link
+
+[Vercel Link](https://user-profiles-three.vercel.app/)
